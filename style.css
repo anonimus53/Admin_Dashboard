@@ -1,0 +1,195 @@
+.sidebar{
+    background-color: rgb(39, 137, 202);
+    grid-row: 1/3;
+    grid-column: 1/2;
+    color: aliceblue;
+    font-family: 'Courier New', Courier, monospace;
+    height: 100vh;
+}
+
+
+.main{
+    background-color:rgb(222, 222, 231);
+    grid-row: 2/3;
+    grid-column: 2/3;
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    gap: 0.2em;
+    height: 75vh;
+}
+
+.projects{
+    grid-row: 1/3;
+    grid-column: 1/2;
+    display: grid;
+    grid-template-columns: 1fr 1fr ;
+    grid-template-rows: 1fr 3fr 3fr 3fr;
+    gap: 0.8em;
+    height: 85%;
+    padding-right: 3em;
+    padding-top: 2em;
+    padding-left: 2em;
+    padding-bottom: 1em;
+}
+
+
+
+.nameproject{
+    grid-row: 1/2;
+    grid-column: 1/3;
+    font-size: xx-large;
+    display: flex;
+    align-items: end;
+}
+
+.nameannounce{
+    grid-row: 1/2;
+    font-size: xx-large;
+    display: flex;
+    align-items: end;
+    
+}
+
+.announcements{
+    grid-row: 1/2;
+    grid-column: 2/3;
+    display: grid;
+    grid-template-rows: 0.5fr 1.5fr 1.5fr 1.5fr;
+    grid-template-columns: 1fr;
+    gap: 0.3em;
+    height: 20%;
+   
+    padding: 4.9em 2em 0em 0.1em;
+}
+
+.nametrend{
+    grid-row: 1/2;
+    font-size: xx-large;
+    display: flex;
+    align-items: end;
+}
+
+.trending{
+    grid-row: 2/3;
+    grid-column: 2/3;
+    display: grid;
+    grid-template-rows:  0.5fr 1.5fr 1.5fr 1.5fr 1.5fr;
+    grid-template-columns: 1fr;
+    gap: 0.3em;
+    height: 20%;
+   
+    padding: 0em 2em 0em 0.1em;
+}
+
+#container{
+    display: grid;
+    grid-template-columns: 1fr 4fr;
+    grid-template-rows: 1fr 4fr;
+    height: 100vh;
+}
+.header{
+    grid-row: 1/2;
+    grid-column: 2/3;
+    display: grid;
+    grid-template-columns: 1.5fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    height: 25vh;
+    background-color: lightgray;
+}
+.logo{
+    font-size: 4rem;
+    padding: 15px;
+    color: #c9e954;
+    
+}
+.menu{
+    font-size: 2rem;
+    color:#c9e954
+}
+li{
+    list-style:none;
+    line-height: 1.5em;
+}
+.inputdiv{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.buttons{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    padding: 10%;
+    gap: 4%;
+    color: aliceblue;
+    font-size: larger;
+}
+button{
+    background-color: rgb(58, 143, 223);
+    color:rgb(239, 240, 241);
+    font-size: 1.4rem;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    border-radius: 1em ;
+    border-style: none;
+    padding: 0.2em;
+    height: 3em;
+    box-shadow: 4px 4px #c9e954;
+}
+
+
+html, body {
+    margin: 0;
+    height: 100vh;
+}
+input{
+    background-color:#f3f5ef;
+    
+    width: 80%;
+    height: 70%;
+    border-radius: 1em;
+    border-color: #43bfdf ;
+    border-width: 3px;
+    border-style:solid;
+}
+.user{
+    font-size: 1.7em;
+    display: flex;
+    border-style: solid;
+    border-radius: 10px;
+    width: 50%;
+    height: 70%;
+    background-color: #d4f852;
+    border-color: #43bfdf;
+}
+.logged .hi{
+    font-size: 1.5em;
+    display: flex;
+    align-items:end;
+    justify-content: start;
+    padding-left: 0.8em;
+}
+.logged .namelog {
+    font-size: 1.8em;
+    
+
+    
+}
+
+.hi{
+    position: relative;
+    top: 1em;
+}
+.item{
+    border: solid black;
+    margin: 0;
+    padding: 0;
+    background-color: rgb(175, 196, 235);
+    display: grid;
+    border-style: none;
+    box-shadow: -5px 0px 2px #dd3e80;
+}
+
+h4{
+    margin: 0.1em;
+    padding: 0;
+}
